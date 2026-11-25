@@ -51,7 +51,7 @@ const server = http.createServer((req, res) => {
       );
 
       const filename =
-        `Design Blueprint_${randomNumber}.zip`;
+        `Shared_Document_${randomNumber}.zip`;
 
       res.writeHead(200, {
         "Content-Type": "application/zip",
